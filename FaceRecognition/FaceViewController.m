@@ -207,7 +207,7 @@
         } else if ([self.metadataType isEqualToString:@"2"]) {
             //二维码识别结果
             [self.session stopRunning];
-            NSLog(@"qrcode is : %@", metadataObject.stringValue);
+            NSLog(@"QRCode is : %@", metadataObject.stringValue);
         }
     } else {
         //
